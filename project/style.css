@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Lovers+Quarrel&family=Montserrat+Alternates:wght@300;400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 18;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1, h2, h3, h4{
+    padding: 0;
+    font-family: 'Lovers Quarrel', cursive;
+} 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    font-size: xx-large;
+}
+
+.logo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg{
+    padding-right: 10px;
+}
+
+footer{
+    background-color: #D9D9D9;
+    font-size: xx-large;
+}
+
+.logof{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logofimg{
+    padding-right: 10px;
+}
+
+ul{
+    
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+
+.space{
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 10em);
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    margin: 0.4em;
+    padding: 0.4em;
+    border-color: #8b67a2;
+    color: #8b67a2;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    padding: 1em;
+    margin: 1.5em;
+    color: #8b67a2;
+    background: white;
+    border-color: #8b67a2;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
